@@ -49,7 +49,11 @@ const Header: FC = () => {
                 </svg>
               )}
 
-              <img className="h-10 mr-8" src={HeaderIcon} alt="header logo" />
+              <img
+                className="h-10 mr-8 cursor-pointer"
+                src={HeaderIcon}
+                alt="header logo"
+              />
               <div className="hidden md:flex bg-gray-50 border pl-4 pr-5 rounded-full items-center mt-6 md:mt-0 focus-within:border-pink-500 focus-within:bg-white selection:bg-white active:bg-white outline-none transition-colors duration-300">
                 <input
                   type="text"
